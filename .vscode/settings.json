@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hachem22/ros2_ws/install/my_robot_tuto/lib/python3.10/site-packages",
+        "/home/hachem22/synhive_ws/install/synhive_bringup/lib/python3.10/site-packages",
+        "/home/hachem22/ros2_ws_basics/install/smart_counter/lib/python3.10/site-packages",
+        "/home/hachem22/ros2_ws_basics/install/lidar_test/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hachem22/ros2_ws/install/my_robot_tuto/lib/python3.10/site-packages",
+        "/home/hachem22/synhive_ws/install/synhive_bringup/lib/python3.10/site-packages",
+        "/home/hachem22/ros2_ws_basics/install/smart_counter/lib/python3.10/site-packages",
+        "/home/hachem22/ros2_ws_basics/install/lidar_test/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}
