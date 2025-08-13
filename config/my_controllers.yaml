@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
     update_rate: 30
-    use_sim_time: true
+    #use_sim_time: true
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
@@ -25,3 +25,5 @@ diff_cont:
     wheel_radius: 0.1  # Updated radius
     
     use_stamped_vel: false
+    #cmd_vel_unstamped: /diff_cont/cmd_vel_unstamped
+    
