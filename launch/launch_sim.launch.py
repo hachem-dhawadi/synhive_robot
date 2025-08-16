@@ -68,7 +68,7 @@ def generate_launch_description():
     )
 
     # Controller manager node
-    """
+    
     controller_manager_node = Node(
         package='controller_manager',
         executable='ros2_control_node',
@@ -78,14 +78,14 @@ def generate_launch_description():
         ],
         output='screen'
     )
-    """
+    
 
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
         spawn_entity,
-        #controller_manager_node,  # <-- Add this line
+        controller_manager_node,  # <-- Add this line
         diff_drive_spawner,
         joint_broad_spawner
     ])
